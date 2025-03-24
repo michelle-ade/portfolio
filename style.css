@@ -1,0 +1,81 @@
+body {
+    margin: 0;          /* Kills the white border */
+    padding: 0;         /* Extra safety */
+    overflow-x: hidden;  /* Prevents horizontal scroll */
+    background-color: #000000;
+}
+
+  section {
+    padding: 2rem 0;    /* Adds internal spacing */
+  }
+/*
+.section-content {
+    max-width: 1200px;     Same as your current layout 
+    margin: 0 auto;        Centers content 
+    padding: 0 2rem;       Optional: Adds breathing room on mobile 
+}*/
+
+/*
+.colored-section {
+    width: 100%;          
+    padding: 2rem 0;      /* Reduced vertical padding (adjust as needed) */
+ /* Your color 
+}
+*/
+
+#profile {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%; /* Creates circle */
+    border: 5px solid white; /* White circle effect */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional shadow */
+}
+/*
+* {
+    outline: 1px solid red !important; 
+  }
+    */
+
+.text-content {
+    flex-grow: 1;
+  }
+
+#intro {
+    display: flex;          /* Flexbox magic */
+    align-items: flex-start; /* Aligns items to top */
+    gap: 20px;             /* Space between image/text */
+    max-width: 1000px;     /* Constrain total width */
+    margin: 0 auto;        /* Center horizontally */
+    background-color: #683ed3;
+    color: #ededed;
+}
+
+#featured {
+    background-color: #a17ff7;
+    color: #ffffff;
+}
+
+.featured-project {
+    float: left;
+    width: 33.33%;
+}
+  
+/* Clear floats after the columns */
+.featured-work:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

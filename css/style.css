@@ -1,3 +1,9 @@
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: white;
+}
+
 body {
     margin: 0;          /* Kills the white border */
     padding: 0;         /* Extra safety */

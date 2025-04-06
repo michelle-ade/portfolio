@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Steam Review Analyser | Michelle's Portfolio</title>
+  <link rel="stylesheet" href="../css/projects.css">
+</head>
+<body>
+
+  <section class="project-page">
+    <div class="cosmic-container">
+      <div class="project-content">
+        <!-- Your project content goes here -->
+        <h1>Steam Review Analyser</h1>
+        <div class="project-meta">
+          <span>Tools: Unity, C#, Blender</span>
+          <span>Role: Solo Developer</span>
+        </div>
+        <img src="../images/SteamAnalyserimg.png" alt="" class="project-hero" width="200px">
+        <div class="project-body">
+          <h2>Overview</h2>
+          <p>The Steam Review Analyser is a Python-based tool 
+            designed to help indie developers, publishers, and marketers 
+            gain actionable insights from player feedback on Steam. 
+            By extracting review data, organising it into a comprehensive spreadsheet, 
+            and performing keyword frequency analysis, this tool streamlines the process 
+            of understanding player sentiment and identifying areas for improvement.
+          </p>
+          <hr>
+
+          <h2>The Challenge</h2>
+          <p>Analysing player feedback manually is time-consuming and often overwhelming, 
+            especially for indie developers with limited resources. The goal was to create 
+            a tool that:
+
+            <ul>
+              <li>Automates the extraction of Steam Reviews.</li>
+              <li>Organises data into a user-friendly format (Excel/xlsx).</li>
+              <li>Provides actionable insights through keyword frequency analysis.</li>
+            </ul>
+          </p>
+          <hr>
+
+          <h2>The Solution</h2>
+          <p>The Steam Review Analyser extracts review data from Steam, 
+            filters it based on criteria like language, playtime, and date range, 
+            and organises it into a structured spreadsheet. Key features include:</p>
+
+          <p>Comprehensive Data Extraction: Pulls review text, ratings, playtime, 
+            and other metadata.</p>
+          <p>Filtering & Sorting: Allows users to focus on specific subsets of reviews.</p>
+          <p>Keyword Frequency Analysis: Identifies common themes and issues 
+            by analysing the most frequently used words in reviews.</p>
+          <p>User-Friendly Output: Generates an Excel file with 
+            clear, organised data for easy analysis.</p>
+          <hr>
+
+          <h2>Technical Implementation</h2>
+          <p>Web Scraping: Used Python's BeautifulSoup and Requests libraries, 
+            as well as Steam's API to retrieve review data.</p>
+          <p>Data Processing: Leveraged Python's Pandas library 
+            to clean, filter and organise the data.</p>
+          <p>Keyword Analysis: Implemented a word frequency counter 
+            using the Counter class from Python's Collections module.</p>
+          <p>Output: Generated Excel files using the openpyxl library.</p>
+          <hr>
+
+          <h2>Impact</h2>
+          <p>This project is designed to help indie developers and marketers:
+
+            <ul>
+              <li>Identify common player complaints and address them in updates.</li>
+              <li>Understand what players love about their games to emphasise those features 
+                in marketing.</li>
+              <li>Save hours of manual work by automating data collection and analysis.</li>
+            </ul>
+
+            The tool has been rigorously tested and refined 
+            to ensure it meets the needs of its target audience. 
+            Its practical applications make it a valuable resource 
+            for anyone looking to gain deeper insights into player feedback.
+          </p>
+            
+        </div>
+      </div>
+    </div>
+  </section>
+   
+</body>
+</html>

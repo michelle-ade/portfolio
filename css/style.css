@@ -132,8 +132,8 @@ section {
   /* Project Images */
   .project-image {
     width: 100%;
-    height: 300px; /* Fixed height for consistency */
-    object-fit: cover; /* Ensures no distortion */
+    height: 250px; /* Fixed height for consistency */
+    object-fit: fill; /* Ensures no distortion */
     border-bottom: 3px solid #ee94ed; /* Your pink accent */
   }
   

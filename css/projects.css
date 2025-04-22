@@ -8,6 +8,14 @@ hr {
     background-color:white;
 }
 
+.caption {
+  color: rgb(174, 174, 174);
+  margin-top: -30px;
+  padding: 2px;
+  font-style: italic;
+  text-align: center;
+}
+
 /* Base Styles */
 .project-page {
     background: 
@@ -30,6 +38,12 @@ hr {
   
   /* Project Hero Image */
   .project-hero {
+    width: 100%;
+    border-radius: 8px;
+    margin: 2rem 0;
+  }
+
+  .inline-image {
     width: 100%;
     border-radius: 8px;
     margin: 2rem 0;

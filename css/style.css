@@ -1,8 +1,31 @@
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-    color: white;
+a:not(.DecLink):hover,
+a:not(.DecLink):visited,
+a:not(.DecLink):link,
+a:not(.DecLink):active {
+  text-decoration: none;
 }
+
+
+a.DecLink:link {
+  color: #C8BFE7;
+  text-decoration: underline;
+}
+
+a.DecLink:visited {
+  color: #b471f6; /* optional: slightly muted purple for visited */
+  text-decoration: underline;
+}
+
+a.DecLink:hover {
+  color: #5FB3B3; /* your teal accent for hover effect */
+  text-decoration: underline dotted; /* optional: add dotted style on hover */
+}
+
+a.DecLink:active {
+  color: #9C6ADE; /* deeper purple to show click */
+  text-decoration: underline;
+}
+
 
 body {
     margin: 0;          /* Kills the white border */
@@ -60,23 +83,23 @@ section {
 #intro {
     padding: 2rem 0;
     width: 100%;    /* Center horizontally */
-    background-color: #683ed3;
-    color: #ededed;
+    color: #FDFDFD;
+    background-color: #2C1A47;
 }
 
 #featured {
-    background-color: #a17ff7;
-    color: #ffffff;
+    color: #2E2E2E;
+    background-color: #C8BFE7;
 }
 
 #projects_grid {
-    color: #5a4a42;
-    background-color: #ffffc1;
+    color: #2E2E2E;
+    background-color: #F2E9E4;
 }
 
 #footer {
-    color: #003366;
-    background-color: #a2d7ff;
+    color: #FDFDFD;
+    background-color: #2C1A47;
 }
 
 .featured-work {
@@ -86,6 +109,7 @@ section {
   }
 
 .featured-project {
+  color: #2E2E2E;
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease;

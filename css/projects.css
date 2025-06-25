@@ -21,7 +21,7 @@ hr {
     background: 
       radial-gradient(circle, #fff 0.5px, transparent 0.5px) 0 0 / 20px 20px, /* White stars */
       #000; /* Black background */
-    color: #fff;
+    color: #2E2E2E;
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2rem 0;
@@ -31,7 +31,7 @@ hr {
   .cosmic-container {
     max-width: 800px; /* Adjust width as needed */
     margin: 0 auto;
-    background: #683ed3; /* Flat dark color (change to your preference) */
+    background: #C8BFE7; /* Flat dark color (change to your preference) */
     padding: 2rem;
     border-radius: 0; /* Remove if you want sharp corners */
   }
